@@ -1,6 +1,6 @@
 {
-  "name": "myshopkit-html-generator",
-  "description": "You can create markup for text such as adding color, font-weight with MyShopKit  HTML Generator tool.",
+  "name": "myshopkit-image-resizer",
+  "description": "Myshopkit image resizer",
   "scripts": {
     "build": "tsc && vite build",
     "commit": "git-cz",

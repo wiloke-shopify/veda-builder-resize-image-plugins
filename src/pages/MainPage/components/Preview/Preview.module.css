@@ -1,0 +1,42 @@
+.container {
+  position: relative !important;
+  height: 100% !important;
+}
+
+.header {
+  display: flex !important;
+  justify-content: flex-end !important;
+  padding: 12px 20px 0px 0px !important;
+}
+
+.add_more {
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50% !important;
+  background: #1677ff !important;
+  color: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 32px !important;
+  cursor: pointer !important;
+}
+
+/* Body */
+.body {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  gap: 32px !important;
+  max-height: 100% !important;
+  box-sizing: border-box !important;
+  padding: 24px !important;
+}
+
+.modal_content {
+  box-sizing: border-box !important;
+  padding: 24px 0px 0px 0px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.2) !important;
+}

@@ -1,0 +1,26 @@
+.container {
+  flex: 0 !important;
+}
+
+.title {
+  box-sizing: border-box !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 34px !important;
+  letter-spacing: 0 !important;
+  color: #383e45 !important;
+  margin-bottom: 0 !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+  padding: 21px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+  position: relative !important;
+  background-color: #fff !important;
+}
+
+.tab {
+  text-align: center !important;
+  color: #7c7c80 !important;
+  box-sizing: border-box !important;
+  padding: 16px !important;
+}

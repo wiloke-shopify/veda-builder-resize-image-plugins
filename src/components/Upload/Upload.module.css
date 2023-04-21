@@ -1,0 +1,22 @@
+.container {
+  display: inline-block !important;
+  max-width: 500px !important;
+  width: 100% !important;
+}
+
+.upload_file {
+  margin-bottom: 12px !important;
+  display: block !important;
+}
+
+.upload__image {
+  width: 200px !important;
+}
+
+.upload__description {
+  font-size: 16px !important;
+}
+
+.upload__description > span {
+  margin-right: 4px !important;
+}

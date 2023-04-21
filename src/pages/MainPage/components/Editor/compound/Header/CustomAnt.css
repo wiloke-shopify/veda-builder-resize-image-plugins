@@ -1,0 +1,15 @@
+.custom_segmented {
+  width: 100% !important;
+}
+
+.custom_segmented .ant-segmented-item {
+  flex: 1 1 auto !important;
+}
+
+.custom_form_item .ant-row.ant-form-item-row {
+  justify-content: space-between !important;
+}
+
+.custom_form_item .ant-form-item-control {
+  flex: 0 0 auto !important;
+}

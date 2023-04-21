@@ -1,0 +1,18 @@
+.container {
+  display: flex !important;
+  height: 100vh !important;
+}
+
+.preview {
+  flex: 1 !important;
+  max-height: 100% !important;
+}
+
+.editor {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  flex: 0 0 440px !important;
+  background: #fff !important;
+  max-height: 100% !important;
+  border-left: 1px solid rgba(0, 0, 0, 0.2) !important;
+}

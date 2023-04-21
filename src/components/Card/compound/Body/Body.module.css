@@ -1,0 +1,20 @@
+.container {
+  flex: 1 !important;
+  box-sizing: border-box !important;
+  padding: 0px 4px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.image {
+  width: 100% !important;
+  height: 100% !important;
+  text-align: center !important;
+}
+
+.image > img {
+  width: initial !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+}

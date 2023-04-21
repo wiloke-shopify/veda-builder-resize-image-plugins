@@ -1,0 +1,49 @@
+.container {
+  flex: 0 !important;
+}
+
+.infomation {
+  text-align: center !important;
+  margin-bottom: 8px !important;
+}
+
+.name {
+  box-sizing: border-box !important;
+  text-overflow: ellipsis !important;
+  font-size: 12px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  padding: 6px !important;
+  line-height: 16px !important;
+  margin-bottom: 2px !important;
+}
+
+.size {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+}
+
+.original_size {
+  box-sizing: border-box !important;
+  padding: 2px 4px !important;
+  background: #aeaeb2 !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+}
+
+.final_size {
+  box-sizing: border-box !important;
+  padding: 2px 4px !important;
+  background: #86b3fe !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+}
+
+.download_button {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  height: initial !important;
+  border-radius: 0px !important;
+}

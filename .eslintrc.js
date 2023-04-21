@@ -11,9 +11,6 @@ module.exports = {
     react: {
       version: 'detect',
     },
-    jest: {
-      version: 'detect',
-    },
   },
   extends: [
     'eslint:recommended',
@@ -130,6 +127,10 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
 
     'react-hooks/rules-of-hooks': 'error',
+
+    // A11y
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
 
     // Prettier
     'prettier/prettier': [

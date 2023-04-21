@@ -1,0 +1,29 @@
+.container {
+  box-sizing: border-box !important;
+  padding: 4px !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  flex: 0 !important;
+}
+
+.action {
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 100% !important;
+  cursor: pointer !important;
+  background: #e5e5e9 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 18px !important;
+}
+
+.action:hover {
+  background: #4d90fe !important;
+  color: #ffffff !important;
+}
+
+.action svg {
+  fill: currentColor;
+  color: inherit;
+}

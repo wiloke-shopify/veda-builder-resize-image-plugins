@@ -8,5 +8,5 @@ interface GetFinalWidth {
 
 export const getFinalWidth = ({ editorValues, image }: GetFinalWidth) => {
   const value_ = editorValues.variant === 'by_percentage' ? image.width * editorValues.percentage : editorValues.width;
-  return editorValues.withEnlarge ? value_ : Math.min(value_, image.width);
+  return !editorValues.withEnlarge ? value_ : Math.min(value_, image.width);
 };

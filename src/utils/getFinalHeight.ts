@@ -18,5 +18,5 @@ export const getFinalHeight = ({ editorValues, image }: GetFinalHeight) => {
       : editorValues.withMaintainAspectRatio || !editorValues.height
       ? editorValues.width * aspectRatio
       : editorValues.height;
-  return editorValues.withEnlarge ? value_ : Math.min(value_, image.height);
+  return !editorValues.withEnlarge ? value_ : Math.min(value_, image.height);
 };

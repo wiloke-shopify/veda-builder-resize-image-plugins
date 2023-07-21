@@ -37,7 +37,7 @@ export const getLinkDownload = ({ editorValues, image }: GetLinkDownload) => {
       const dataUrl = canvas.toDataURL('image/png');
       resolve({
         url: dataUrl,
-        fileName: `${image.name}_${finalWidth}x${finalHeight}_.${image.mimeType}`,
+        fileName: `${image.name}_${finalWidth}x${finalHeight}_.png`,
       });
     };
     $image.onerror = error => {
